@@ -1,2 +1,4 @@
-cp -R configs/* ~/.config/
-cp -R wallpapers/* ~/.wallpapers/
+mkdir ~/.config
+cp -R .config/* ~/.config/
+mkdir ~/.wallpaper
+cp -R .wallpaper/* ~/.wallpaper/
