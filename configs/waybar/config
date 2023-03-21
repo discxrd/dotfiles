@@ -1,0 +1,21 @@
+{
+    "modules-left": ["tray"],
+
+    "modules-center": ["hyprland/window"],
+
+    "modules-right": ["clock"],
+    "tray": {
+        "spacing": 10
+    },
+
+    "clock": {
+        "format": "{:%H:%M}",
+        "format-alt": "{:%b %d %Y}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    },
+
+    "hyprland/window": {
+        "format": "{}",
+        "separate-outputs": true
+    }
+}

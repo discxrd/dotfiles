@@ -1,0 +1,31 @@
+* {
+  /* `otf-font-awesome` is required to be installed for icons */
+  font-family: JetBrainsMono Nerd Font;
+  font-size: 19px;
+
+  color: #cdd6f4;
+}
+
+window#waybar {
+  background-color: transparent;
+}
+
+#window ,
+#clock,
+#tray {
+  border-radius: 6px;
+  padding: 2px 10px;
+  background-color: #252733;
+  border-radius: 8px;
+  font-size: 18.5px;
+
+  margin-left: 10px;
+  margin-right: 10px;
+
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+
+#clock {
+  font-weight: bold;
+}
